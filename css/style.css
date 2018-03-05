@@ -19,3 +19,19 @@
     display: flex;
     justify-content: center;
 }
+
+
+@media screen and (min-width: 768px) {
+    .logo-round {
+        width: 150px;
+        position: absolute;
+    }
+
+    .logo-left {
+        left: calc(50% - 175px);
+    }
+
+    .logo-right {
+        right: calc(50% - 175px);
+    }
+}
