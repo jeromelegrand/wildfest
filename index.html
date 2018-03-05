@@ -15,14 +15,15 @@
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
+        <link href="css/colors.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
 
     </head>
 
     <body>
         <header>
-            <nav class="navbar navbar-default" role="navigation">
-                <div class="container">
+            <nav class="navbar navbar-default bg-light-green" role="navigation">
+                <div class="container brown">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
@@ -31,18 +32,21 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <div class="navbar-brand navbar-brand-centered d-flex-centered">
-                            <img src="images/logo_navbar.png" alt="logo wildfest" width="57px" height="50px">
+                        <div class="navbar-brand navbar-brand-centered d-flex-center" id="test">
+                            <a href="index.html">
+                                <img class="hidden-xs" src="images/logo_navbar.png" alt="logo wildfest" width="57px" height="50px">
+                                <img class="visible-xs-block" src="images/logo_wildfest_sans_image.png" alt="logo wildfest" height="50px">
+                            </a>
                         </div>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="navbar-brand-centered">
-                        <ul class="nav navbar-nav logo-round logo-left">
-                            <li><a href="#">Le Programme</a></li>
+                        <ul class="nav navbar-nav logo-round logo-left d-flex-center brown">
+                            <li><a href="program.html">Le Programme</a></li>
                         </ul>
-                        <ul class="nav navbar-nav navbar-right logo-round logo-right">
-                            <li><a href="#">La Galerie</a></li>
+                        <ul class="nav navbar-nav navbar-right logo-round logo-right d-flex-center brown">
+                            <li><a href="gallery.html">La Galerie</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
