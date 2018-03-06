@@ -14,9 +14,13 @@
 
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
-
         <link href="css/colors.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/fluid-gallery.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+
+
 
     </head>
 
@@ -54,7 +58,55 @@
         </header>
 
         <main>
-            
+            <section id="gallery">
+                
+
+<div class="container gallery-container">
+
+
+    
+    <div class="tz-gallery">
+
+        <div class="row">
+
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="images/gallery/maxi/foret1.jpg">
+                    <img src="images/gallery/min/foret1.jpg">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/maxi/foret1.jpg">
+                    <img src="images/gallery/min/foret2.jpg">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/maxi/foret1.jpg">
+                    <img src="images/gallery/min/foret2.jpg">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-8">
+                <a class="lightbox" href="images/gallery/maxi/foret1.jpg">
+                    <img src="images/gallery/min/foret4.jpg">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/maxi/foret1.jpg">
+                    <img src="images/gallery/min/foret3.jpg">
+                </a>
+            </div> 
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/maxi/foret1.jpgg">
+                    <img src="images/gallery/min/foret1.jpg">
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+                
+            </section>
         </main>
 
         <footer>
@@ -66,5 +118,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
   </body>
 </html>
