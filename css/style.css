@@ -68,7 +68,7 @@ main {
 
 /**********ARTISTS**********/
 
-@keyframes hover-animation {   
+@keyframes hover-animation {
     100% {
         height: 100%;
     }
@@ -76,7 +76,7 @@ main {
 
 #artists .hover-artist:hover .profil-description{
     animation: hover-animation 1s;
-    animation-timing-function:ease-out;    
+    animation-timing-function:ease-out;
     animation-fill-mode: forwards;
     display:block;
 }
@@ -121,3 +121,11 @@ main {
 }
 
 /********** END ARTISTS**********/
+
+/********** INTRO *********/
+
+#intro {
+    height: 600px;
+}
+
+/********** END INTRO**********/
