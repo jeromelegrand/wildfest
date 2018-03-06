@@ -6,6 +6,15 @@
     justify-content: center;
 }
 
+.d-flex-v-center {
+    align-items: center;
+}
+
+.h-100 {
+    min-height: 100px;
+}
+
+/*********NAVBAR********/
 @media screen and (max-width: 767px) {
     .navbar-brand {
         padding-top: 0;
@@ -43,10 +52,6 @@
     }
 }
 
-main {
-    margin-top: -20px;
-}
-
 .navbar-nav.brown > li > a {
     color:#955a32;
     font-weight: bold;
@@ -55,4 +60,10 @@ main {
 
 .navbar-nav.brown:hover > li > a {
     color:#716e45;
+}
+/*********FIN NAVBAR********/
+
+
+main {
+    margin-top: -20px;
 }
