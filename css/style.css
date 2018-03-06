@@ -22,7 +22,7 @@
 
 /**********ARTISTS**********/
 
-@keyframes hover-animation {
+@keyframes hover-animation {   
     100% {
         height: 100%;
     }
@@ -30,6 +30,7 @@
 
 #artists .hover-artist:hover .profil-description{
     animation: hover-animation 1s;
+    animation-timing-function:ease-out;    
     animation-fill-mode: forwards;
     display:block;
 }
@@ -37,10 +38,10 @@
 .profil-description {
     height: 0;
     width:100%;
-    background-color: #9fb14e;
+    background-color: black;
     opacity: 0.9;
     position: absolute;
-    border-radius: 15px;
+    border-radius: 10px;
     top: 0;
     display: none;
     padding: 5px;
@@ -60,7 +61,7 @@
 
 #artists img {
     width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 #artists .profil-artist {
