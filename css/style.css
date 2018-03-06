@@ -1,24 +1,70 @@
-.navbar-brand-centered
-{
-    position: absolute;
-    left: 50%;
-    display: block;
-    width: 160px;
-    text-align: center;
-    background-color: transparent;
+main {
+    margin-top: -20px;
 }
 
-.navbar>.container .navbar-brand-centered,
-.navbar>.container-fluid .navbar-brand-centered
-{
-    margin-left: -80px;
-}
-
-.d-flex-centered
+.d-flex-center
 {
     display: flex;
     justify-content: center;
 }
+
+.d-flex-v-center {
+    align-items: center;
+}
+
+.h-100 {
+    min-height: 100px;
+}
+
+/*********NAVBAR********/
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo-round {
+        width: 150px;
+        position: absolute;
+    }
+
+    .logo-left {
+        left: calc(50% - 200px);
+    }
+
+    .logo-right {
+        right: calc(50% - 160px);
+    }
+
+    .navbar-brand-centered
+    {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        background-color: transparent;
+    }
+
+    .navbar>.container .navbar-brand-centered,
+    .navbar>.container-fluid .navbar-brand-centered
+    {
+        margin-left: -80px;
+    }
+}
+
+.navbar-nav.brown > li > a {
+    color:#955a32;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navbar-nav.brown:hover > li > a {
+    color:#716e45;
+}
+
+/*********FIN NAVBAR********/
 
 /**********ARTISTS**********/
 
@@ -73,3 +119,5 @@
 .hover-artist {
     position: relative;
 }
+
+/********** END ARTISTS**********/
