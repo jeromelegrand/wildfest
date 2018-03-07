@@ -1,11 +1,28 @@
 main {
-    margin-top: -20px;
+    margin-top: 50px;
+}
+.d-flex {
+    display: flex;
+}
+
+.flex-direction-column {
+    flex-direction: column;
 }
 
 .d-flex-center
 {
     display: flex;
     justify-content: center;
+}
+
+.d-flex-start {
+    display: flex;
+    justify-content: start;
+}
+
+.d-flex-end {
+    display: flex;
+    justify-content: end;
 }
 
 .d-flex-v-center {
@@ -68,7 +85,7 @@ main {
 
 /**********ARTISTS**********/
 
-@keyframes hover-animation {   
+@keyframes hover-animation {
     100% {
         height: 100%;
     }
@@ -76,7 +93,7 @@ main {
 
 #artists .hover-artist:hover .profil-description{
     animation: hover-animation 1s;
-    animation-timing-function:ease-out;    
+    animation-timing-function:ease-out;
     animation-fill-mode: forwards;
     display:block;
 }
@@ -399,3 +416,67 @@ body{
 }
 
 /********** END PROGRAM **********/
+
+/********** INTRO *********/
+
+#intro {
+    position: relative;
+}
+
+#myVideo {
+    position: relative;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.opacity {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left:0;
+    height: calc(100% - 5px);
+    width: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+#edition {
+    position: relative;
+}
+
+#edition > div {
+    position: relative;
+    top: 30px;
+    right: calc(-30px + 10%);
+}
+
+#town {
+    position: relative;
+}
+
+#town > div {
+    position: relative;
+    top: -30px;
+    left: calc(30px + 10%);
+}
+
+#intro h4 > a {
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#intro h4:hover > a {
+    color: white;
+}
+
+/********** END INTRO**********/
