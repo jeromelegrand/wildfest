@@ -68,17 +68,19 @@ main {
 
 /**********ARTISTS**********/
 
-@keyframes hover-animation {   
+@keyframes hover-animation { 
     100% {
         height: 100%;
     }
 }
 
 #artists .hover-artist:hover .profil-description{
-    animation: hover-animation 1s;
-    animation-timing-function:ease-out;    
+    animation: hover-animation 1s;  
     animation-fill-mode: forwards;
-    display:block;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .profil-description {
@@ -87,27 +89,26 @@ main {
     background-color: black;
     opacity: 0.9;
     position: absolute;
-    border-radius: 10px;
     top: 0;
-    display: none;
     padding: 5px;
     text-align: center;
+    display: none;
 }
 
-#artists p {
-    font-size: 1.5em;
+#artists .gallery p {
+    font-size: calc(0.4em + 1.2vw);
     color:white;
 }
 
-#artists h3 {
+#artists .gallery h3 {
     color: white;
-    font-size: 3em;
+    font-size: calc(1em + 1.2vw);
+    margin-top:5px;
 }
 
 
 #artists img {
     width: 100%;
-    border-radius: 10px;
 }
 
 #artists .profil-artist {
@@ -118,6 +119,35 @@ main {
 
 .hover-artist {
     position: relative;
+    z-index: 3;
+}
+
+.info-artist {
+    position: absolute;
+    top:15px;
+    left: 15px;
+}
+
+.info-artist {
+    color:gainsboro;
+    font-size: 20px;
+}
+
+.carousel-caption {
+    position:static;   
+    background-color: #9fb14e;
+    padding-left:10px;
+    padding-right:10px;
+    height: 280px;
+}
+
+#artists .carousel-caption h3 {
+   margin-top: 0;
+    font-size: calc(20px + 1.2vw);
+}
+
+#artists .carousel-caption p {
+    font-size: calc(10px + 1.2vw);
 }
 
 /********** END ARTISTS**********/
