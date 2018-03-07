@@ -99,7 +99,7 @@ main {
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
   }
-/* BOUTON*/ 
+/* BOUTON*/
   #timeline .demo-card:nth-child(odd) .head::before, #timeline .demo-card:nth-child(even) .head::before {
     position: absolute;
     top:35px;
@@ -425,25 +425,23 @@ body{
 
 /********** END INTRO**********/
 
-<<<<<<< HEAD
 /********** INFOS ************/
 .vw-50 {
     width: 50vw;
     height: 50vw;
 }
 /********** END INFOS ************/
-=======
+
 /**********ARTISTS**********/
 
-@keyframes hover-animation { 
+@keyframes hover-animation {
     100% {
-        height: 100%;
         opacity: 1;
     }
 }
 
 #artists .hover-artist:hover .profil-description{
-    animation: hover-animation 2s;  
+    animation: hover-animation 1s;
     animation-fill-mode: forwards;
 }
 
@@ -500,7 +498,7 @@ body{
 }
 
 .carousel-caption {
-    position:static;   
+    position:static;
     background-color: #9fb14e;
     padding-left:10px;
     padding-right:10px;
@@ -517,4 +515,3 @@ body{
 }
 
 /********** END ARTISTS**********/
->>>>>>> 644e3b6e8df4025220b6c7dd0b6fa667c7b4980c
