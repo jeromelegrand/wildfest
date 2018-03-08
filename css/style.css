@@ -432,6 +432,32 @@ body{
 }
 /********** END INFOS ************/
 
+/********* PRESENTATION************/
+
+#presentation {
+    background-color: #955a32;
+    color: white;
+}
+
+#presentation .presentation-text {
+    text-align: center;
+    padding: 15px;
+}
+
+#presentation .presentation-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#presentation .presentation-img img {
+    margin: 15px;
+    width: 90%;
+}
+
+/********** END PRESENTATION************/
+
+
 /**********ARTISTS**********/
 
 @keyframes hover-animation {
