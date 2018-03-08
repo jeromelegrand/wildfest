@@ -7,3 +7,8 @@ git commit -m " j'ai modifié 2"  -> valider modification
 git push origin raph  -> envoyer sur sa branche
 git fetch origin -> recuper toute les branches
 
+
+
+/--- > 
+
+git push origin dev  -->> envoyer sur dev !
