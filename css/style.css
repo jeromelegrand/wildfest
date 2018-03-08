@@ -428,6 +428,18 @@ body{
 
 /********** END INTRO**********/
 
+
+
+/********* START FORM ***************/
+.btn-perso{
+  width: 40vw;
+  margin-top: 10px;
+  
+}
+/********* END FORM ****************/
+
+
+
 /********** INFOS ************/
 .vw-50 {
     width: 50vw;
