@@ -428,6 +428,18 @@ body{
 
 /********** END INTRO**********/
 
+
+
+/********* START FORM ***************/
+.btn-perso{
+  width: 40vw;
+  margin-top: 10px;
+  
+}
+/********* END FORM ****************/
+
+
+
 /********** INFOS ************/
 .vw-50 {
     width: 50vw;
@@ -444,6 +456,32 @@ body{
     height: calc(40vw / 2);
 }
 /********** END INFOS ************/
+
+/********* PRESENTATION************/
+
+#presentation {
+    background-color: #955a32;
+    color: white;
+}
+
+#presentation .presentation-text {
+    text-align: center;
+    padding: 15px;
+}
+
+#presentation .presentation-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#presentation .presentation-img img {
+    margin: 15px;
+    width: 90%;
+}
+
+/********** END PRESENTATION************/
+
 
 /**********ARTISTS**********/
 
