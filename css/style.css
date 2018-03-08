@@ -412,6 +412,9 @@ body{
     top: -30px;
     left: calc(30px + 10%);
 }
+#intro > div {
+    overflow: hidden;
+}
 
 #intro h4 > a {
     color: orange;
@@ -429,6 +432,11 @@ body{
 .vw-50 {
     width: 50vw;
     height: 50vw;
+}
+
+.vw-50-demi {
+    width: 50vw;
+    height: calc(50vw / 2);
 }
 /********** END INFOS ************/
 
