@@ -1,6 +1,10 @@
 main {
     margin-top: 50px;
 }
+
+section {
+    padding-bottom: 20px;
+}
 .d-flex {
     display: flex;
 }
@@ -365,6 +369,7 @@ body{
 
 #intro {
     position: relative;
+    padding-bottom: 0;
 }
 
 #myVideo {
@@ -581,3 +586,21 @@ body{
 }
 
 /********** END ARTISTS**********/
+
+/********** FOOTER *************/
+
+footer {
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/********** END FOOTER *************/
