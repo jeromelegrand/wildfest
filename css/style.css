@@ -1,6 +1,10 @@
 main {
     margin-top: 50px;
 }
+
+section {
+    padding-bottom: 20px;
+}
 .d-flex {
     display: flex;
 }
@@ -365,6 +369,7 @@ body{
 
 #intro {
     position: relative;
+    padding-bottom: 0;
 }
 
 #myVideo {
@@ -375,15 +380,30 @@ body{
     min-height: 100%;
 }
 
+.video {
+    max-height: 720px;
+}
+
 .opacity {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
     top: 0;
     left:0;
-    height: calc(100% - 5px);
+    height: 100%;
     width: 100%;
 }
 
+.btn-intro {
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 2px solid #ff6600;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.btn-intro:hover {
+    color: white;
+    background-color: #ff6600;
+}
 /* Add some content at the bottom of the video/page */
 .content {
     position: absolute;
@@ -417,7 +437,7 @@ body{
 }
 
 #intro h4 > a {
-    color: orange;
+    color: #ff6600;
     font-weight: bold;
     text-decoration: none;
 }
@@ -434,7 +454,7 @@ body{
 .btn-perso{
   width: 40vw;
   margin-top: 10px;
-  
+
 }
 /********* END FORM ****************/
 
@@ -448,7 +468,12 @@ body{
 
 .vw-50-demi {
     width: 50vw;
-    height: calc(50vw / 2);
+    height: calc(40vw / 2);
+}
+
+#infos iframe {
+    width: 40vw;
+    height: calc(40vw / 2);
 }
 /********** END INFOS ************/
 
@@ -561,3 +586,21 @@ body{
 }
 
 /********** END ARTISTS**********/
+
+/********** FOOTER *************/
+
+footer {
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/********** END FOOTER *************/
