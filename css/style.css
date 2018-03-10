@@ -6,6 +6,10 @@ main {
     margin-top: 50px;
 }
 
+h2 {
+    font-family: 'lemon';
+}
+
 section {
     padding-bottom: 20px;
 }
@@ -367,6 +371,127 @@ section {
 /********** END PROGRAM **********/
 
 /********** INTRO *********/
+@media screen and (max-width: 767px) {
+    #intro h1{
+        font-size: 17.5vw;
+        text-align:0;
+        line-height: 0.8;
+    }
+    
+    #intro .text-intro {
+        width: auto;
+        height:auto;
+        padding: 30px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    #intro p {
+        margin: 0;
+        padding: 0;
+        font-size: 4.5vw;
+        line-height: 1;
+        margin-left: 30px;
+        color: white;
+        font-family: 'lemon';
+    }
+    
+    #intro .upper-description {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        justify-content: space-between;
+        align-items: flex-end;
+        position: relative;
+    }
+    
+    #intro ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    #intro li {
+        list-style: none;
+        font-size: 1.3em;
+        margin: 0 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    #intro h1{
+        font-size: 7em;
+    }
+    
+    #intro .social-network {
+        position: absolute;
+        right: 20px;
+        top:0;
+        height: 40px;
+        width: 120px;
+        z-index: 3;
+    }
+    
+    #intro .text-intro {
+        width: 510px;
+        height:160px;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    
+    #intro p {
+        font-size: 1.8em;
+        margin-top: -18px;
+        margin-bottom: -18px;
+        margin-left: 30px;
+        color: white;
+        font-family: 'lemon';
+    }
+    
+    #intro .upper-description {
+        display: flex;
+        padding: 0;
+        background-color: blue;
+        justify-content: space-between;
+    }
+    
+    #intro ul {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    #intro li {
+        list-style: none;
+        font-size: 1.3em;
+        margin: 0 20px;
+    }
+}
+
+#intro {
+    padding: 0;
+}
+
+#intro img{
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.fa {
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.fa:hover {
+    color: #2ecc71;
+}
+
+#intro p:first-child {
+    margin-left: 0;
+}
 
 .container-intro {
     position: relative;
@@ -377,15 +502,9 @@ section {
     margin: 0;
 }
 
-#intro p:first-child {
-    text-align: right;
-    color: #2ecc71;
-}
-
-
 #intro sup {
-    color: white;
     font-variant: small-caps;
+    color: white;
 }
 
 #intro video {
@@ -395,7 +514,7 @@ section {
     margin: 0;
     z-index: 1;
 }
-
+/*changer la couleur de fond de l'intro*/
 #intro .filtre {
     position: absolute;
     background-color: black;
@@ -407,10 +526,27 @@ section {
     opacity: 0.6;
 }
 
+#intro span.green{
+    color: #2ecc71;
+}
+
+#intro .date {
+    text-align: left;
+}
+
+.edition {
+    text-align: right;
+}
+
 .description-intro {
     position: absolute;
     padding: 0;
     z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 #intro h1,li {
@@ -420,30 +556,6 @@ section {
     padding: 0;
 }
 
-#intro p {
-    font-size: 1.8em;
-    margin-top: -18px;
-    margin-bottom: -18px;
-    margin-left: 30px;
-    color: #2ecc71;
-    font-family: 'lemon';
-}
-
-#intro h1 {
-    font-size: 7em;
-}
-
-#intro ul {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-#intro li {
-    list-style: none;
-    font-size: 1.3em;
-    margin: 0 20px;
-}
 
 #intro a {
     color:white;
@@ -488,7 +600,7 @@ section {
 /********* PRESENTATION************/
 
 #presentation {
-    background-color: #955a32;
+    background-color: #2ecc71;
     color: white;
 }
 
@@ -519,6 +631,10 @@ section {
     }
 }
 
+#artists h2{
+    color: #2ecc71;
+}
+
 #artists .hover-artist:hover .profil-description{
     animation: hover-animation 1s;
     animation-fill-mode: forwards;
@@ -537,7 +653,7 @@ section {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    background-color: #9fb14e;
+    background-color: #2ecc71;
 }
 
 #artists .gallery p {

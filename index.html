@@ -16,7 +16,7 @@
 
         <!-- Bootstrap core CSS -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+        <link rel="stylesheet" href="fonts/font-awesome.min.css">
         <link rel="stylesheet" href="css/fonts.css">
         <link href="css/colors.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
@@ -75,16 +75,27 @@
             <section id="intro" class="container-fluid">
                 <div class="row">
                     <div class="container-intro">
+                       <div class="social-network">
+                           <a href=""><span class="fa fa-facebook-official fa-2x" aria-hidden="true"></span></a>
+                           <a href=""><span class="fa fa-instagram fa-2x" aria-hidden="true"></span></a>
+                           <a href=""><span class="fa fa-twitter fa-2x" aria-hidden="true"></span></a>
+                       </div>
                         <div class="filtre"></div>
                         <div class="description-intro">
-                            <p>4<sup>ieme</sup> edition</p>
-                            <h1>WILDFEST</h1>
-                            <p>Cerf Chevalier</p>
+                           <div class="text-intro">
+                              <div class="upper-description">
+                                  <div><p class="date"><span class="green">1</span><sup>er</sup><span class="green">avril 2018</span></p></div>
+                                  <div><p class="edition"><span class="green">4<sup>ieme</sup> edition</span></p></div>
+                              </div>
+                                <h1>WILDFEST</h1>
+                                <p><span class="green">Cerf Chevalier</span></p>
+                            </div>
                             <div class="artists-intro">
                                 <ul><li><a href="">Michel Cerfdou</a></li><li><a href="">Lady Bois-bois</a></li><li><a href="">Ed Cerf-An</a></li></ul>
                             </div>
                         </div>
-                        <video src="videos/wildfest.mp4" autoplay muted loop class="video"></video>
+                        <video src="videos/wildfest.mp4" autoplay muted loop class="video hidden-xs"></video>
+                        <img src="images/capture_video.png" alt="foule" class="visible-xs">
                     </div>
                 </div>
             </section>
