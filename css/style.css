@@ -5,6 +5,11 @@ main {
 section {
     padding-bottom: 20px;
 }
+
+h1, h2, h3 {
+    font-family: 'lemon';
+}
+
 .d-flex {
     display: flex;
 }
@@ -165,6 +170,12 @@ section {
     align-items: center;
 }
 
+#bigTitle > div > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 #bigTitle h1 {
     order: 2;
     font-size: 10vw;
@@ -173,16 +184,16 @@ section {
 }
 
 #bigTitle h2 {
-    order: 1;
-    font-size: 4vw;
+    order: 3;
+    font-size: 2vw;
     line-height: 0.9;
     align-self: flex-start;
     margin: 0;
 }
 
 #bigTitle h3 {
-    order: 3;
-    font-size:4vw;
+    order: 1;
+    font-size: 2vw;
     line-height: 0.9;
     align-self: flex-end;
     margin: 0;
