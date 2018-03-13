@@ -1,6 +1,4 @@
-body{
-    background-color: #f7f7f7;
-}
+
 h1, h2, h3 {
     font-family: "lemon";
     text-align: center;
@@ -68,7 +66,7 @@ section{
 
 #timeline {
   padding: 100px 0;
-  background: #f7f7f7;
+  background-image: url(../images/wall.png);
   border-top: 1px solid rgba(191, 191, 191, 0.4);
   border-bottom: 1px solid rgba(191, 191, 191, 0.4);
 }

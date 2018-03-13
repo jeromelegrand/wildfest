@@ -1,5 +1,5 @@
 body{
-    background-color: #f7f7f7;
+    background-image: url(../images/wall.png);
 }
 main {
     margin-top: 50px;
@@ -13,7 +13,12 @@ section {
 h1, h2, h3 {
     font-family: "lemon";
 }
-
+h2{
+    margin-left: 25px;
+}
+h3{
+    margin-left: 10%;
+}
 
 .d-flex {
     display: flex;
