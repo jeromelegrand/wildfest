@@ -4,6 +4,7 @@ main {
 
 section {
     padding: 50px;
+    box-shadow: 0px 0px 5px #000;
 }
 .d-flex {
     display: flex;
@@ -85,7 +86,9 @@ section {
 .navbar-nav.brown:hover > li > a {
     color:#716e45;
 }
-
+.navbar{
+    box-shadow: 0px 0px px #000;
+}
 /*********FIN NAVBAR********/
 
 
@@ -325,6 +328,7 @@ section {
 
 #artists img {
     width: 100%;
+    
 }
 
 #artists .profil-artist {
