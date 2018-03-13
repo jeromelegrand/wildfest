@@ -4,6 +4,7 @@ body{
 h1, h2, h3 {
     font-family: "lemon";
     text-align: center;
+    color: #f7be4c;
 }
 section{
     margin-top: 0px;
