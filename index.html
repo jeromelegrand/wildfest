@@ -57,71 +57,39 @@
 
         <main>
             <section id="intro" class="container-fluid">
-                <div class="row video">
+                <div>
                     <video class="hidden-xs" autoplay muted loop id="myVideo">
                         <source src="videos/wildfest.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
                     <img class="visible-xs-block img-responsive" src="images/capture_video_retail.png" alt="wildfest forest">
-                    <div class="opacity"></div>
-                    <div class="content white d-flex flex-direction-column">
-                        <div style="flex: 1;">
-                            <ul class="list-inline text-right">
-                                <li>
-                                    <a href="#">
-                                        <img src=images/facebook.svg alt="facebook wildfest" width="30px">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="images/instagram.svg" width="30px" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="images/twitter.svg" width="30px" alt="wildfest twitter">
-                                    </a>
-                                </li>
+                    <div>
+                        <div id="socialIcons">
+                            <ul class="list-inline">
+                                <li><a href="#"><img src="images/facebook.svg" width="30px"></a></li>
+                                <li><a href="#"><img src="images/twitter.svg" width="30px"></a></li>
+                                <li><a href="#"><img src="images/instagram.svg" width="30px"></a></li>
                             </ul>
                         </div>
-                        <div class="d-flex d-flex-v-center" style="flex: 3;">
-                            <div class="container d-flex flex-direction-column">
-                                <div class="row col-sm-offset-2 col-sm-8 text-center" style="order: 2;">
-                                    <h1 class="d-flex-center"><img class="img-responsive" src="images/logo_wildfest_sans_image.png" alt="wildfest logo"></h1>
-                                </div>
-                                <div id="town" class="row col-sm-offset-2 col-sm-8" style="order: 3;">
-                                    <div>
-                                        <h2>Cerf Chevalier</h2>
-                                    </div>
-                                </div>
-                                <div id="edition" class="row col-sm-offset-2 col-sm-8 col-sm-pull-1 text-right" style="order: 1;">
-                                    <div>
-                                        <h3>4<sup>ème</sup> Edition</h3>
-                                    </div>
-                                </div>
+                        <div id="bigTitle">
+                            <div>
+                                <h1>WILD FEST</h1>
+                                <h2>Cerf Chevalier</h2>
+                                <h3>4ème Edition</h3>
                             </div>
                         </div>
-                        <div class="d-flex-center d-flex-v-center"style="flex: 2;">
-                            <ul class="list-unstyled text-center">
-                                <li>
-                                    <h4>
-                                        <a href="#">Michel Cerfdou</a>
-                                    </h4>
-                                </li>
-                                <li>
-                                    <h4>
-                                        <a href="#">Lady Bois-bois</a>
-                                    </h4>
-                                </li>
-                                <li>
-                                    <h4>
-                                        <a href="#">Ed Cerf'An</a>
-                                    </h4>
-                                </li>
+                        <div id="artistsPeview">
+                            <ul class="list-inline">
+                                <li><a href="#">Michel Cerfdou</a></li>
+                                <li><a href="#">Lady Bois-bois</a></li>
+                                <li><a href="#">Ed Cerf'an</a></li>
                             </ul>
                         </div>
-                        <div class="d-flex-center d-flex-v-center text-center" style="flex: 2;">
-                            <button class="btn btn-lg btn-intro" onclick="window.location.replace('program.html');">Voir le programme</button>
+                        <div id="btnProgram">
+                            <button class="btn btn-warning">Le programme</button>
+                        </div>
+                        <div id="hook">
+                            <h2>Venez au festival pour seulement 20€</h2>
                         </div>
                     </div>
                 </div>
