@@ -95,6 +95,10 @@ section {
     padding: 0;
 }
 
+#intro video {
+    display: block;
+}
+
 #intro > div {
     position: relative;
     width: 100%;"
@@ -141,6 +145,10 @@ section {
 #socialIcons {
     display: flex;
     justify-content: flex-end;
+}
+
+#socialIcons ul {
+    padding: 20px;
 }
 
 #bigTitle {
@@ -247,35 +255,6 @@ section {
 }
 
 /********** END INTRO**********/
-
-
-
-/********* START FORM ***************/
-.btn-perso{
-  width: 40vw;
-  margin-top: 10px;
-
-}
-/********* END FORM ****************/
-
-
-
-/********** INFOS ************/
-.vw-50 {
-    width: 50vw;
-    height: 50vw;
-}
-
-.vw-50-demi {
-    width: 50vw;
-    height: calc(40vw / 2);
-}
-
-#infos iframe {
-    width: 40vw;
-    height: calc(40vw / 2);
-}
-/********** END INFOS ************/
 
 /********* PRESENTATION************/
 
@@ -386,6 +365,34 @@ section {
 }
 
 /********** END ARTISTS**********/
+
+
+/********** INFOS ************/
+.vw-50 {
+    width: 50vw;
+    height: 50vw;
+}
+
+.vw-50-demi {
+    width: 50vw;
+    height: calc(40vw / 2);
+}
+
+#infos iframe {
+    width: 40vw;
+    height: calc(40vw / 2);
+}
+/********** END INFOS ************/
+
+/********* START FORM ***************/
+.btn-perso{
+    width: 40vw;
+    margin-top: 10px;
+
+}
+/********* END FORM ****************/
+
+
 
 /********** FOOTER *************/
 
