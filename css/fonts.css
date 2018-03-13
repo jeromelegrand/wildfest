@@ -12,3 +12,18 @@
     font-family: "lemon-italic";
     src: url("../fonts/lemon_milk/LemonMilkitalic.otf") format("truetype");
 }
+
+@font-face {
+    font-family: "nature";
+    src: url("../fonts/nature/Nature.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "wildwood";
+    src: url("../fonts/wild_wood/JFWilwod.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "fastflatbrush";
+    src: url("../fonts/fast_flat_brush/Fast Flat Brush.ttf") format("truetype");
+}
