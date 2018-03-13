@@ -5,6 +5,10 @@ main {
 section {
     padding: 50px;
 }
+
+h1, h2, h3 {
+    font-family: "lemon";
+}
 .d-flex {
     display: flex;
 }
