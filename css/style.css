@@ -387,8 +387,18 @@ section {
 
 /********* START FORM ***************/
 .btn-perso{
-    width: 40vw;
+    width: 41.5vw;
     margin-top: 10px;
+    background-color: #955a32;
+    color:white;
+
+}
+.btn-perso:hover{
+
+    background-color: #9fb14e;
+    width: 41.5vw;
+    margin-top: 10px;
+    color:white;
 
 }
 /********* END FORM ****************/
