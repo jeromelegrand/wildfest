@@ -369,16 +369,93 @@ section {
 /********** INTRO *********/
 
 #intro {
+    margin-top: 20px;
+    padding: 0;"
+}
+
+#intro > div {
     position: relative;
-    padding-bottom: 0;
+    width: 100%;"
+}
+
+#intro > div > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#artistsPeview {
+    display: flex;
+    justify-content: center;
+}
+
+#artistsPeview a {
+    color: white;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+#btnProgram {
+    display: flex;
+    justify-content: center;
+}
+
+#hook {
+    display: flex;
+    justify-content: center;
 }
 
 #myVideo {
-    position: relative;
-    right: 0;
-    top: 0;
-    min-width: 100%;
-    min-height: 100%;
+    width:100%;
+}
+
+#socialIcons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#bigTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bigTitle >div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bigTitle h1 {
+    order: 2;
+    font-size: 10vw;
+    line-height: 0.9;
+    margin: 0;
+}
+
+#bigTitle h2 {
+    order: 1;
+    font-size: 4vw;
+    line-height: 0.9;
+    align-self: flex-start;
+    margin: 0;
+}
+
+#bigTitle h3 {
+    order: 3;
+    font-size:4vw;
+    line-height: 0.9;
+    align-self: flex-end;
+    margin: 0;
 }
 
 .video {
