@@ -1,9 +1,4 @@
 
-h1, h2, h3 {
-    font-family: "lemon";
-    text-align: center;
-    color: #f7be4c;
-}
 section{
     margin-top: 0px;
     font-family: "lemon";
@@ -32,7 +27,7 @@ section{
     content: "";
     width: 9px;
     height: 9px;
-    background-color: #cbdf9a;
+    background-color: #bbcc44;
     border-radius: 9px;
     box-shadow: 0px 0px 2px 8px #f7f7f7;
   }
@@ -251,28 +246,28 @@ body{
     max-height: 70%;
 }
 #timeline .demo-card--step1 {
-    background-color: #cbdf9a;
+    background-color: #bbcc44;
 }
 #timeline .demo-card--step1 .head::after {
-    border-color: #cbdf9a;
+    border-color: #bbcc44;
 }
 #timeline .demo-card--step2 {
     background-color: #f7be4c;
 }
 #timeline .demo-card--step2 .head::after {
-    border-color: #955a32;
+    border-color: #f7be4c;
 }
 #timeline .demo-card--step3 {
     background-color: #f7be4c;
 }
 #timeline .demo-card--step3 .head::after {
-    border-color: #955a32;
+    border-color: #f7be4c;
 }
 #timeline .demo-card--step4 {
-    background-color: #cbdf9a;
+    background-color: #bbcc44;
 }
 #timeline .demo-card--step4 .head::after {
-    border-color: #cbdf9a;
+    border-color: #bbcc44;
 }
 #timeline .demo-card--step8 {
     background-color: none;

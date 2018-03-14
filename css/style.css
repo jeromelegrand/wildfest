@@ -290,7 +290,7 @@ h2 > sup, h3 > sup {
 #presentation {
     background-color: #BBCC44;
     color: black;
-    box-shadow: -10px 0px 10px #000;
+    box-shadow: -10px 0px 10px #afb6a8;
 }
 
 #presentation .presentation-text {
@@ -404,7 +404,10 @@ h2 > sup, h3 > sup {
     background-color: #bbcc44;
     color: black;
     box-shadow: -10px 0px 10px #afb6a8;
-
+}
+.bio_logo{
+    float:right;
+    margin-top: -50px;
 }
 
 .vw-50 {
@@ -421,19 +424,20 @@ h2 > sup, h3 > sup {
     width: 40vw;
     height: calc(40vw / 2);
 }
-
+.height_buvette{
+    padding-top: 20px;
+}
 /********** END INFOS ************/
 
 /********* START FORM ***************/
 .btn-perso{
-    width: 96%;
+    width: 100%;
     margin-top: 10px;
     background-color: #bbcc44;
     color:black;
     box-shadow: -10px 0px 10px #afb6a8;
 }
 .btn-perso:hover{
-    width: 96%;
     margin-top: 10px;
     background-color: #bbcc44;
     color:black;
