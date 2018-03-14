@@ -12,12 +12,16 @@ section {
 
 h1 {
     font-family: "lemon";
-    color: #53A806;
+    color: #bbcc44;
 }
 
 h2, h3  {
     font-family: 'lemon';
-    color: #A75A2C;
+    color: white;
+}
+
+h2 > sup, h3 > sup {
+    color: #dd7711
 }
 
 .d-flex {
