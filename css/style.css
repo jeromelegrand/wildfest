@@ -286,9 +286,9 @@ h3{
 /********* PRESENTATION************/
 
 #presentation {
-    background-color: #f7be4c;
+    background-color: #BBCC44;
     color: black;
-    box-shadow: -10px 0px 10px #afb6a8;
+    box-shadow: -10px 0px 10px #000;
 }
 
 #presentation .presentation-text {
@@ -399,7 +399,7 @@ h3{
 
 /********** INFOS ************/
 #infos {
-    background-color: #f7be4c;
+    background-color: #bbcc44;
     color: black;
     box-shadow: -10px 0px 10px #afb6a8;
 
@@ -426,14 +426,14 @@ h3{
 .btn-perso{
     width: 96%;
     margin-top: 10px;
-    background-color: #f7be4c;
+    background-color: #bbcc44;
     color:black;
     box-shadow: -10px 0px 10px #afb6a8;
 }
 .btn-perso:hover{
     width: 96%;
     margin-top: 10px;
-    background-color: #f7be4c;
+    background-color: #bbcc44;
     color:black;
     box-shadow: -10px 0px 30px #afb6a8;
 
