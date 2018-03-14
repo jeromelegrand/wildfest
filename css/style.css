@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/wall.png);
+    background-image: url('../images/wall.png');
 }
 main {
     margin-top: 50px;
@@ -7,7 +7,7 @@ main {
 
 section {
     padding: 50px;
-    box-shadow: 0px 0px 5px #f7be4c;
+    box-shadow: 0 0 5px #f7be4c;
 }
 
 h1 {
@@ -17,11 +17,38 @@ h1 {
 
 h2, h3  {
     font-family: 'lemon';
+    color: #bbcc44;
+}
+
+
+section.bg-green h2, section.bg-green h3 {
+    color: white;
+}
+
+section.bg-green {
     color: white;
 }
 
 h2 > sup, h3 > sup {
     color: #dd7711
+}
+
+p {
+    font-family: 'Mina', SansSerif;
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+.btn-green {
+    border: 3px solid #bbcc44;
+    background-color: unset;
+    color: #bbcc44;
+    font-weight: bold;
+}
+
+.btn-green:hover {
+    background-color: #bbcc44;
+    color: white;
 }
 
 .d-flex {
@@ -95,16 +122,42 @@ h2 > sup, h3 > sup {
     }
 }
 
-.navbar-nav.brown > li > a {
-    color:#955a32;
-    font-weight: bold;
-    font-size: 1.2em;
+.navbar-brand:hover a {
+    text-decoration: none;
 }
 
+.navbar-toggle {
+    border: 2px solid #bbcc44;
 
-.navbar-nav.brown:hover > li > a {
-    color:#716e45;
 }
+
+.navbar-toggle .icon-bar {
+    background-color: #bbcc44;
+}
+
+.navbar-toggle:hover {
+    background-color: #bbcc44;
+}
+
+.navbar-toggle:hover .icon-bar {
+    background-color: white;
+}
+
+.navbar-nav > li > a {
+    font-family: 'lemon';
+    font-size: 1.5em;
+    color: #bbcc44;
+}
+
+.navbar-nav > li > a {
+    color: #dd7711;
+}
+
+.navbar-nav > li:hover > a {
+    color: #bbcc44;
+    background-color: transparent;
+}
+
 .navbar{
     box-shadow: -3px -10px 16px #000;
 }
@@ -116,6 +169,10 @@ h2 > sup, h3 > sup {
 #intro {
     margin-top: 20px;
     padding: 0;
+}
+
+#intro h2, h3 {
+    color: white;
 }
 
 #intro video {
@@ -137,7 +194,7 @@ h2 > sup, h3 > sup {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #artistsPeview {
@@ -146,9 +203,16 @@ h2 > sup, h3 > sup {
 }
 
 #artistsPeview a {
-    color: white;
+    color: #dd7711;
     font-weight: bold;
     font-size: 2vw;
+    margin: 0 10px;
+
+}
+
+#artistsPeview a:hover {
+    text-decoration: none;
+    color: #bbcc44;
 }
 
 #btnProgram {
@@ -283,18 +347,36 @@ h2 > sup, h3 > sup {
     color: white;
 }
 
+@media (max-width: 767px) {
+    #intro h1 {
+        font-size: 15vw
+    }
+
+    #intro h2, #intro h3 {
+        font-size: 5vw;
+    }
+
+    #artistsPeview a {
+        font-size: 4vw;
+    }
+    
+    #artistsPeview .list-inline {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 /********** END INTRO**********/
 
 /********* PRESENTATION************/
 
 #presentation {
     background-color: #BBCC44;
-    color: black;
     box-shadow: -10px 0px 10px #afb6a8;
 }
 
 #presentation .presentation-text {
-    text-align: justify;
     padding: 15px;
     padding-left: 5%;
 }
@@ -329,7 +411,6 @@ h2 > sup, h3 > sup {
 .profil-description {
     height: 100%;
     width:100%;
-    opacity: 0.8;
     position: absolute;
     top: 0;
     padding: 5px;
@@ -339,7 +420,7 @@ h2 > sup, h3 > sup {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 #artists .gallery p {
@@ -381,7 +462,7 @@ h2 > sup, h3 > sup {
 
 .carousel-caption {
     position:static;
-    background-color: #9fb14e;
+    background-color: #bbcc44;
     padding-left:10px;
     padding-right:10px;
     height: 200px;
@@ -401,8 +482,6 @@ h2 > sup, h3 > sup {
 
 /********** INFOS ************/
 #infos {
-    background-color: #bbcc44;
-    color: black;
     box-shadow: -10px 0px 10px #afb6a8;
 }
 .bio_logo{

@@ -1,56 +1,23 @@
-.green-fest {
-    color: #75a22c;
+.green {
+    color: #bbcc44;
 }
 
-.bg-white {
-    background-color: white;
+.bg-green {
+    background-color: #bbcc44;
 }
 
-.bg-brown-cerf {
-    background-color: #7d3d12;
+.orange {
+    color: #dd7711;
+}
+
+.bg-orange {
+    background-color: #dd7711;
 }
 
 .white {
     color: white;
 }
-.break-white {
-    color: #f0f4b7; /*blanc cassé*/
-}
 
-.bg-break-white {
-    background-color: #f0f4b7; /*blanc cassé*/
-}
-
-.light-green {
-    color: #cbdf9a; /*vert clair*/
-}
-
-.bg-light-green {
-    background-color: #cbdf9a; /*vert clair*/
-}
-
-.green {
-    color: #9fb14e; /*vert*/
-
-}
-
-.bg-green {
-    background-color: #9fb14e; /*vert*/
-
-}
-
-.dark-green {
-    color: #716e45; /*vert foncé*/
-}
-
-.bg-dark-green {
-    background-color: #716e45; /*vert foncé*/
-}
-
-.brown {
-    color: #955a32; /*marron*/
-}
-
-.bg-brown {
-    background-color: #955a32; /*marron*/
+.bg-white {
+    background-color: white;
 }
