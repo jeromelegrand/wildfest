@@ -83,6 +83,12 @@ p {
     min-height: 100px;
 }
 
+.d-flex-hv-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*********NAVBAR********/
 @media screen and (max-width: 767px) {
     .navbar-brand {
@@ -504,9 +510,30 @@ div.carousel-caption {
     width: 40vw;
     height: calc(40vw / 2);
 }
-.height_buvette{
-    padding-top: 20px;
+
+.buvette {
+    flex-direction: column;
 }
+
+.buvette > div {
+    width: 33.33%;
+}
+
+@media (max-width: 767px) {
+    .buvette {
+        flex-direction: row;
+    }
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+#infos iframe {
+    width: 100%;
+    height: auto;
+}
+
 /********** END INFOS ************/
 
 /********* START FORM ***************/
