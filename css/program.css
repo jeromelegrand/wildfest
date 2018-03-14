@@ -231,14 +231,12 @@ body{
     }
 }
 #timeline .demo-card .body ul {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 22px;
     margin-bottom: 15px;
     list-style: none;
     width: 90%;
-    font-weight: bold;
-
-
+    font-family: 'Mina', sans-serif;
 }
 #timeline .demo-card .body img {
     display: block;

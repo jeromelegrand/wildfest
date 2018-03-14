@@ -26,6 +26,7 @@ section{
     margin: 25px auto;
     font-size: 18px;
     color: #999;
+    background-image: url(../images/test.jpg);
 }
 
 .tz-gallery {
