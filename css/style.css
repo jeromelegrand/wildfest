@@ -405,7 +405,6 @@ h2 > sup, h3 > sup {
 .profil-description {
     height: 100%;
     width:100%;
-    opacity: 0.8;
     position: absolute;
     top: 0;
     padding: 5px;
@@ -415,7 +414,7 @@ h2 > sup, h3 > sup {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 #artists .gallery p {
@@ -457,7 +456,7 @@ h2 > sup, h3 > sup {
 
 .carousel-caption {
     position:static;
-    background-color: #9fb14e;
+    background-color: #bbcc44;
     padding-left:10px;
     padding-right:10px;
     height: 200px;
