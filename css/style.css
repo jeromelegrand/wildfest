@@ -163,7 +163,6 @@ p {
 }
 /*********FIN NAVBAR********/
 
-
 /********** INTRO *********/
 
 #intro {
@@ -394,7 +393,6 @@ p {
 
 /********** END PRESENTATION************/
 
-
 /**********ARTISTS**********/
 
 @keyframes hover-animation {
@@ -436,7 +434,6 @@ p {
 
 #artists img {
     width: 100%;
-    
 }
 
 #artists .profil-artist {
@@ -478,7 +475,6 @@ p {
 }
 
 /********** END ARTISTS**********/
-
 
 /********** INFOS ************/
 #infos {
@@ -524,8 +520,6 @@ p {
 
 }
 /********* END FORM ****************/
-
-
 
 /********** FOOTER *************/
 
