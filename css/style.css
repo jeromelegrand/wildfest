@@ -396,6 +396,10 @@ p {
 
 /**********ARTISTS**********/
 
+div.carousel-caption {
+    text-shadow: unset;
+}
+
 @keyframes hover-animation {
     100% {
         opacity: 1;
