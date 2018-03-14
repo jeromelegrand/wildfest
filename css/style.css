@@ -39,6 +39,10 @@ p {
     line-height: 1.5;
 }
 
+.btn-green:focus {
+    color: #bbcc44;
+}
+
 .btn-green {
     border: 3px solid #bbcc44;
     background-color: unset;
@@ -395,7 +399,7 @@ p {
 #presentation .presentation-img img {
     margin: 15px;
     width: 90%;
-    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.23);
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.23);
 }
 
 /********** END PRESENTATION************/
@@ -479,10 +483,6 @@ div.carousel-caption {
 #artists .carousel-caption h3 {
     margin-top: 0;
     font-size: calc(20px + 1.2vw);
-}
-
-#artists .carousel-caption p {
-    font-size: calc(10px + 1.2vw);
 }
 
 /********** END ARTISTS**********/
@@ -569,6 +569,8 @@ footer {
 }
 
 footer a {
+    font-family: 'Mina', sans-serif;
+    font-size: 1.6em;
     text-decoration: none;
     font-weight: bold;
     color: white;
