@@ -162,7 +162,7 @@ h2 > sup, h3 > sup {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #artistsPeview {
@@ -171,9 +171,16 @@ h2 > sup, h3 > sup {
 }
 
 #artistsPeview a {
-    color: white;
+    color: #dd7711;
     font-weight: bold;
     font-size: 2vw;
+    margin: 0 10px;
+
+}
+
+#artistsPeview a:hover {
+    text-decoration: none;
+    color: #bbcc44;
 }
 
 #btnProgram {
@@ -306,6 +313,26 @@ h2 > sup, h3 > sup {
 
 #intro h4:hover > a {
     color: white;
+}
+
+@media (max-width: 767px) {
+    #intro h1 {
+        font-size: 15vw
+    }
+
+    #intro h2, #intro h3 {
+        font-size: 5vw;
+    }
+
+    #artistsPeview a {
+        font-size: 5vw;
+    }
+    
+    #artistsPeview .list-inline {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 /********** END INTRO**********/
