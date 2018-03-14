@@ -34,9 +34,16 @@ h2 > sup, h3 > sup {
 }
 
 .btn-green {
-
+    border: 3px solid #bbcc44;
+    background-color: unset;
+    color: #bbcc44;
+    font-weight: bold;
 }
 
+.btn-green:hover {
+    background-color: #bbcc44;
+    color: white;
+}
 
 .d-flex {
     display: flex;
