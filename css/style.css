@@ -541,16 +541,25 @@ div.carousel-caption {
     width: 100%;
     margin-top: 10px;
     background-color: #bbcc44;
-    color:black;
+    color:white;
+    font-weight: bold;
+    font-family: 'Mina', sans-serif;
     box-shadow: -10px 0 10px #afb6a8;
 }
 .btn-perso:hover{
     margin-top: 10px;
     background-color: #bbcc44;
-    color:black;
+    color:white;
+    font-weight: bold;
+    font-family: 'Mina', sans-serif;
     box-shadow: -10px 0 30px #afb6a8;
 
 }
+.formMessage{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
 /********* END FORM ****************/
 
 /********** FOOTER *************/
