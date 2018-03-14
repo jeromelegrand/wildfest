@@ -7,7 +7,7 @@ section {
 }
 
 h1 {
-    font-family: "fastflatbrush";
+    font-family: "lemon";
     color: #53A806;
 }
 
@@ -184,15 +184,15 @@ h2, h3  {
 
 #bigTitle h1 {
     order: 2;
-    font-size: 5vw;
-    line-height: 1.8;
+    font-size: 10vw;
+    line-height: 0.9;
     margin: 0;
 }
 
 #bigTitle h2 {
     order: 3;
     font-size: 2vw;
-    line-height: 1.5g;
+    line-height: 0.9;
     align-self: center;
     margin: 0;
 }
