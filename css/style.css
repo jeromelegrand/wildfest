@@ -11,12 +11,12 @@ section {
 }
 
 h1 {
-    font-family: "lemon";
+    font-family: "lemon", sans-serif;
     color: #bbcc44;
 }
 
 h2, h3  {
-    font-family: 'lemon';
+    font-family: 'lemon', sans-serif;
     color: #bbcc44;
 }
 
@@ -34,7 +34,7 @@ h2 > sup, h3 > sup {
 }
 
 p {
-    font-family: 'Mina', SansSerif;
+    font-family: 'Mina', sans-serif;
     font-size: 2em;
     line-height: 1.5;
 }
@@ -144,7 +144,7 @@ p {
 }
 
 .navbar-nav > li > a {
-    font-family: 'lemon';
+    font-family: 'lemon', sans-serif;
     font-size: 1.5em;
     color: #bbcc44;
 }
@@ -373,7 +373,7 @@ p {
 
 #presentation {
     background-color: #BBCC44;
-    box-shadow: -10px 0px 10px #afb6a8;
+    box-shadow: -10px 0 10px #afb6a8;
 }
 
 #presentation .presentation-text {
@@ -482,7 +482,7 @@ p {
 
 /********** INFOS ************/
 #infos {
-    box-shadow: -10px 0px 10px #afb6a8;
+    box-shadow: -10px 0 10px #afb6a8;
 }
 .bio_logo{
     float:right;
@@ -514,13 +514,13 @@ p {
     margin-top: 10px;
     background-color: #bbcc44;
     color:black;
-    box-shadow: -10px 0px 10px #afb6a8;
+    box-shadow: -10px 0 10px #afb6a8;
 }
 .btn-perso:hover{
     margin-top: 10px;
     background-color: #bbcc44;
     color:black;
-    box-shadow: -10px 0px 30px #afb6a8;
+    box-shadow: -10px 0 30px #afb6a8;
 
 }
 /********* END FORM ****************/
