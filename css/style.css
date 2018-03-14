@@ -7,7 +7,7 @@ main {
 
 section {
     padding: 50px;
-    box-shadow: 0px 0px 5px #f7be4c;
+    box-shadow: 0 0 5px #f7be4c;
 }
 
 h1 {
@@ -116,16 +116,42 @@ h2 > sup, h3 > sup {
     }
 }
 
-.navbar-nav.brown > li > a {
-    color:#955a32;
-    font-weight: bold;
-    font-size: 1.2em;
+.navbar-brand:hover a {
+    text-decoration: none;
 }
 
+.navbar-toggle {
+    border: 2px solid #bbcc44;
 
-.navbar-nav.brown:hover > li > a {
-    color:#716e45;
 }
+
+.navbar-toggle .icon-bar {
+    background-color: #bbcc44;
+}
+
+.navbar-toggle:hover {
+    background-color: #bbcc44;
+}
+
+.navbar-toggle:hover .icon-bar {
+    background-color: white;
+}
+
+.navbar-nav > li > a {
+    font-family: 'lemon';
+    font-size: 1.5em;
+    color: #bbcc44;
+}
+
+.navbar-nav > li > a {
+    color: #dd7711;
+}
+
+.navbar-nav > li:hover > a {
+    color: #bbcc44;
+    background-color: transparent;
+}
+
 .navbar{
     box-shadow: -3px -10px 16px #000;
 }
