@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/wall.png);
+    background-image: url('../images/wall.png');
 }
 main {
     margin-top: 50px;
@@ -17,12 +17,26 @@ h1 {
 
 h2, h3  {
     font-family: 'lemon';
+    color: #bbcc44;
+}
+
+
+section.bg-green h2, section.bg-green h3 {
+    color: white;
+}
+
+section.bg-green {
     color: white;
 }
 
 h2 > sup, h3 > sup {
     color: #dd7711
 }
+
+.btn-green {
+
+}
+
 
 .d-flex {
     display: flex;
@@ -116,6 +130,10 @@ h2 > sup, h3 > sup {
 #intro {
     margin-top: 20px;
     padding: 0;
+}
+
+#intro h2, h3 {
+    color: white;
 }
 
 #intro video {
@@ -288,8 +306,6 @@ h2 > sup, h3 > sup {
 /********* PRESENTATION************/
 
 #presentation {
-    background-color: #BBCC44;
-    color: black;
     box-shadow: -10px 0px 10px #000;
 }
 
@@ -401,8 +417,6 @@ h2 > sup, h3 > sup {
 
 /********** INFOS ************/
 #infos {
-    background-color: #bbcc44;
-    color: black;
     box-shadow: -10px 0px 10px #afb6a8;
 
 }
