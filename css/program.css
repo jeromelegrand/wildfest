@@ -1,7 +1,18 @@
 
+h1, h2, h3 {
+    font-family: "lemon";
+    text-align: center;
+    color: #f7be4c;
+}
+section{
+    margin-top: 0px;
+    font-family: "lemon";
+}
 /********** START PROGRAM **********/
 #timeline{
     margin-top: -80px;
+    font-family: "lemon";
+
 }
 /* FLECHE */
 @media (min-width: 1000px) {
@@ -56,7 +67,7 @@
 
 #timeline {
   padding: 100px 0;
-  background: #f7f7f7;
+  background-image: url(../images/wall.png);
   border-top: 1px solid rgba(191, 191, 191, 0.4);
   border-bottom: 1px solid rgba(191, 191, 191, 0.4);
 }
@@ -195,6 +206,7 @@ body{
     margin: 0;
     padding-bottom: 6px;
     line-height: 1rem;
+    color: black;
 }
 @media (min-width: 480px) {
   #timeline .demo-card .head h2 {
@@ -224,7 +236,7 @@ body{
     }
 }
 #timeline .demo-card .body ul {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 18px;
     margin-bottom: 15px;
     list-style: none;
@@ -245,13 +257,13 @@ body{
     border-color: #cbdf9a;
 }
 #timeline .demo-card--step2 {
-    background-color: #955a32;
+    background-color: #f7be4c;
 }
 #timeline .demo-card--step2 .head::after {
     border-color: #955a32;
 }
 #timeline .demo-card--step3 {
-    background-color: #955a32;
+    background-color: #f7be4c;
 }
 #timeline .demo-card--step3 .head::after {
     border-color: #955a32;

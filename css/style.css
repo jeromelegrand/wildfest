@@ -1,9 +1,13 @@
+body{
+    background-image: url(../images/wall.png);
+}
 main {
     margin-top: 50px;
 }
 
 section {
     padding: 50px;
+    box-shadow: 0px 0px 5px #f7be4c;
 }
 
 h1 {
@@ -77,6 +81,7 @@ h2, h3  {
         width: 160px;
         text-align: center;
         background-color: transparent;
+
     }
 
     .navbar>.container .navbar-brand-centered,
@@ -92,10 +97,13 @@ h2, h3  {
     font-size: 1.2em;
 }
 
+
 .navbar-nav.brown:hover > li > a {
     color:#716e45;
 }
-
+.navbar{
+    box-shadow: -3px -10px 16px #000;
+}
 /*********FIN NAVBAR********/
 
 
@@ -276,13 +284,15 @@ h2, h3  {
 /********* PRESENTATION************/
 
 #presentation {
-    background-color: #955a32;
-    color: white;
+    background-color: #f7be4c;
+    color: black;
+    box-shadow: -10px 0px 10px #afb6a8;
 }
 
 #presentation .presentation-text {
-    text-align: center;
+    text-align: justify;
     padding: 15px;
+    padding-left: 5%;
 }
 
 #presentation .presentation-img {
@@ -315,7 +325,7 @@ h2, h3  {
 .profil-description {
     height: 100%;
     width:100%;
-    opacity: 0.9;
+    opacity: 0.8;
     position: absolute;
     top: 0;
     padding: 5px;
@@ -325,7 +335,7 @@ h2, h3  {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    background-color: #9fb14e;
+    background-color: #000;
 }
 
 #artists .gallery p {
@@ -341,6 +351,7 @@ h2, h3  {
 
 #artists img {
     width: 100%;
+    
 }
 
 #artists .profil-artist {
@@ -385,13 +396,20 @@ h2, h3  {
 
 
 /********** INFOS ************/
+#infos {
+    background-color: #f7be4c;
+    color: black;
+    box-shadow: -10px 0px 10px #afb6a8;
+
+}
+
 .vw-50 {
     width: 50vw;
     height: 50vw;
 }
 
 .vw-50-demi {
-    width: 50vw;
+    width: 40vw;
     height: calc(40vw / 2);
 }
 
@@ -399,12 +417,23 @@ h2, h3  {
     width: 40vw;
     height: calc(40vw / 2);
 }
+
 /********** END INFOS ************/
 
 /********* START FORM ***************/
 .btn-perso{
-    width: 40vw;
+    width: 96%;
     margin-top: 10px;
+    background-color: #f7be4c;
+    color:black;
+    box-shadow: -10px 0px 10px #afb6a8;
+}
+.btn-perso:hover{
+    width: 96%;
+    margin-top: 10px;
+    background-color: #f7be4c;
+    color:black;
+    box-shadow: -10px 0px 30px #afb6a8;
 
 }
 /********* END FORM ****************/

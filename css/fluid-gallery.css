@@ -1,3 +1,15 @@
+body{
+    background-image: url(../images/wall.png);
+}
+h1, h2, h3 {
+    font-family: "lemon";
+    text-align: center;
+    color: #f7be4c;
+}
+section{
+    margin-top: 0px;
+    font-family: "lemon";
+}
 
 .container.gallery-container {
     background-color: #fff;
