@@ -506,11 +506,6 @@ div.carousel-caption {
     height: calc(40vw / 2);
 }
 
-#infos iframe {
-    width: 40vw;
-    height: calc(40vw / 2);
-}
-
 .buvette {
     flex-direction: column;
 }
@@ -530,8 +525,8 @@ div.carousel-caption {
 }
 
 #infos iframe {
+    height: 100%;
     width: 100%;
-    height: auto;
 }
 
 /********** END INFOS ************/
