@@ -39,6 +39,10 @@ p {
     line-height: 1.5;
 }
 
+.btn-green:focus {
+    color: #bbcc44;
+}
+
 .btn-green {
     border: 3px solid #bbcc44;
     background-color: unset;
@@ -81,6 +85,12 @@ p {
 
 .h-100 {
     min-height: 100px;
+}
+
+.d-flex-hv-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*********NAVBAR********/
@@ -389,7 +399,7 @@ p {
 #presentation .presentation-img img {
     margin: 15px;
     width: 90%;
-    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.23);
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.23);
 }
 
 /********** END PRESENTATION************/
@@ -475,10 +485,6 @@ div.carousel-caption {
     font-size: calc(20px + 1.2vw);
 }
 
-#artists .carousel-caption p {
-    font-size: calc(10px + 1.2vw);
-}
-
 /********** END ARTISTS**********/
 
 /********** INFOS ************/
@@ -500,13 +506,29 @@ div.carousel-caption {
     height: calc(40vw / 2);
 }
 
+.buvette {
+    flex-direction: column;
+}
+
+.buvette > div {
+    width: 33.33%;
+}
+
+@media (max-width: 767px) {
+    .buvette {
+        flex-direction: row;
+    }
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
 #infos iframe {
-    width: 40vw;
-    height: calc(40vw / 2);
+    height: 100%;
+    width: 100%;
 }
-.height_buvette{
-    padding-top: 20px;
-}
+
 /********** END INFOS ************/
 
 /********* START FORM ***************/
@@ -542,6 +564,8 @@ footer {
 }
 
 footer a {
+    font-family: 'Mina', sans-serif;
+    font-size: 1.6em;
     text-decoration: none;
     font-weight: bold;
     color: white;
