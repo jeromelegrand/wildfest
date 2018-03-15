@@ -554,6 +554,10 @@ div.carousel-caption {
     margin-top:15px;
     margin-bottom: 15px;
 }
+.formText{
+    text-align: center;
+    font-size:3vh;
+}
 
 /********* END FORM ****************/
 
