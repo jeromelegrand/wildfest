@@ -250,16 +250,16 @@ body{
     border-color: #bbcc44;
 }
 #timeline .demo-card--step2 {
-    background-color: #f7be4c;
+    background-color: #dd7711;
 }
 #timeline .demo-card--step2 .head::after {
-    border-color: #f7be4c;
+    border-color: #dd7711;
 }
 #timeline .demo-card--step3 {
-    background-color: #f7be4c;
+    background-color: #dd7711;
 }
 #timeline .demo-card--step3 .head::after {
-    border-color: #f7be4c;
+    border-color: #dd7711;
 }
 #timeline .demo-card--step4 {
     background-color: #bbcc44;
