@@ -381,7 +381,7 @@ p {
 /********* PRESENTATION************/
 
 #presentation {
-    background-color: #BBCC44;
+    background-color: #bbcc44;
     box-shadow: -10px 0 10px #afb6a8;
 }
 
@@ -491,10 +491,6 @@ div.carousel-caption {
 #infos {
     box-shadow: -10px 0 10px #afb6a8;
 }
-.bio_logo{
-    float:right;
-    margin-top: -50px;
-}
 
 .vw-50 {
     width: 50vw;
@@ -553,6 +549,15 @@ div.carousel-caption {
 .formMessage{
     margin-top:15px;
     margin-bottom: 15px;
+}
+.formText{
+    text-align: center;
+    font-size:3vh;
+}
+form{
+    margin-left: -5%;
+    margin-right: -5%;
+
 }
 
 /********* END FORM ****************/
