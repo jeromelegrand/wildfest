@@ -93,6 +93,16 @@ p {
     align-items: center;
 }
 
+.socialIcon {
+    width: 40px;
+}
+
+@media (max-width: 767px) {
+    .socialIcon {
+        width: 30px;
+    }
+}
+
 /*********NAVBAR********/
 @media screen and (max-width: 767px) {
     .navbar-brand {
@@ -573,6 +583,13 @@ footer a {
 
 footer a:hover {
     color: white;
+}
+
+
+@media (max-width: 767px) {
+    footer a {
+        font-size: 1.2em;
+    }
 }
 
 /********** END FOOTER *************/
