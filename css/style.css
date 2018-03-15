@@ -491,10 +491,6 @@ div.carousel-caption {
 #infos {
     box-shadow: -10px 0 10px #afb6a8;
 }
-.bio_logo{
-    float:right;
-    margin-top: -50px;
-}
 
 .vw-50 {
     width: 50vw;
@@ -557,6 +553,11 @@ div.carousel-caption {
 .formText{
     text-align: center;
     font-size:3vh;
+}
+form{
+    margin-left: -5%;
+    margin-right: -5%;
+
 }
 
 /********* END FORM ****************/
