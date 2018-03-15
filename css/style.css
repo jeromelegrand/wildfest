@@ -534,6 +534,14 @@ div.carousel-caption {
     height: 100%;
     width: 100%;
 }
+.bio-back
+ {
+    background-image: url('../images/bio.png');
+    background-repeat: no-repeat;
+    background-position: bottom -10em right -20em;
+    background-size: 80em;
+    /*background: no-repeat url("../images/bio2.png") bottom -10em right -10em;*/
+}
 
 /********** END INFOS ************/
 
