@@ -101,6 +101,10 @@ p {
     .socialIcon {
         width: 30px;
     }
+
+    p {
+        font-size: 1.5em;
+    }
 }
 
 /*********NAVBAR********/
