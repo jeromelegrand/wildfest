@@ -220,6 +220,10 @@ p {
     justify-content: space-between;
 }
 
+#intro a {
+    font-family: 'Mina', sans-serif;
+}
+
 #artistsPeview {
     display: flex;
     justify-content: center;
